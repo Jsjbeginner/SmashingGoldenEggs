@@ -1,5 +1,6 @@
 html{
-    width: 375px;
+    width: 100%;
+    height: 100%;
 	font-size: 10px;
 }
 body {
@@ -19,6 +20,7 @@ body {
 .smashing-golden-eggs .eggs {
     width: 100%;
     background-color: #ffe0df;
+    padding-bottom: 1rem;
 }
 .eggs .luckEggsC{
 	display: flex;
@@ -42,12 +44,12 @@ body {
 	width: 18%;
 }
 .luckEggsC .egg_2 .txt{
-	top: -2.6rem;
-	left: 1rem;
+	top: .2rem;
+	left: 0rem;
 }
 .luckEggsC .egg_3 .txt{
-	top: -2.6rem;
-	right: 1rem;
+	top: .2rem;
+	right: .2rem;
 }
 .luckEggsC .item .txt img{
 	width: 100%;
@@ -55,8 +57,8 @@ body {
 .luckEggsC .item .bottom{
 	position: absolute;
 	width: 100%;
-	height: 5rem;
-	bottom: -3.4rem;
+	height: 2rem;
+	bottom: -1rem;
 	z-index: 1;
 }
 .luckEggsC .egg_1 .bottom{
@@ -67,8 +69,8 @@ body {
 	height: 100%;
 }
 .luckEggsC .item .content{
-	width: 10rem;
-	height: 18rem;
+	width: 3rem;
+	height: 5.6rem;
 	position: relative;
 	display: flex;
 	align-items: flex-end;
@@ -82,15 +84,15 @@ body {
 }
 .luckEggsC .egg_1{
 	width: 100%;
-	padding-top: 2rem;
+	padding-top: .2rem;
 }
 .luckEggsC .egg_2{
 	width: 47%;
-	margin-top: 7rem;
+	margin-top: 1rem;
 }
 .luckEggsC .egg_3{
 	width: 47%;
-	margin-top: 7rem;
+	margin-top: 1rem;
 	margin-left: 4%;
 }
 .luckEggsC .item .content .front img{
@@ -114,13 +116,13 @@ body {
 .luckEggsC .item .hammer{
 	display: none;
 	position: absolute;
-	width: 4rem;
-	top: 3rem;
+	width: 1.4rem;
+	top: 1rem;
 	right: -16%;
 }
 .luckEggsC .egg_1 .hammer{
-	top: 5rem;
-	right: 18%;
+	top: 2.4rem;
+	right: 16%;
 }
 .luckEggsC .egg_3 .hammer{
 	right: 0;
@@ -221,8 +223,8 @@ body {
 .luckEggsC .item .content .behind .behind_bgt{
 	width: 80%;
 	position: absolute;
-	left: 3.6rem;
-	bottom: 2rem;
+	left: 1rem;
+	bottom: .2rem;
 	z-index: -1;
 	display: none;
 }
@@ -233,10 +235,10 @@ body {
 }
 @-webkit-keyframes bgtAnimation {
 	0% {
-	  	bottom: 2rem;
+	  	bottom: .2rem;
 	}
 	100% {
-        bottom: 7.8rem;
+        bottom: 2rem;
 	}
 }
 .luckEggsC .item .content .behind .right_img{
@@ -259,13 +261,13 @@ body {
 	width: 80%;
 }
 .eggs .info{
-	padding-top: 1rem;
+	padding-top: .2rem;
     width: 80%;
-    margin: 5rem auto auto;
+    margin: 1.6rem auto auto;
     display: flex;
     font-weight: bold;
     color: #e6443f;
-    font-size: 1.4rem;
+    font-size: .4rem;
     justify-content: space-between;
 }
 .eggs .info .item{
@@ -273,16 +275,15 @@ body {
 }
 .eggs .button{
 	font-weight: normal;
-	padding: 1rem 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	width: 84%;
-	margin: 1rem auto auto;
+	margin: .6rem auto auto;
 }
 .eggs .button .opt{
-	width: 9rem;
-	height: 3rem;
+	width: 3rem;
+	height: 1rem;
 }
 .eggs .button .opt-left img{
 	width: 100%;
